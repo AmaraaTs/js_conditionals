@@ -93,20 +93,20 @@
 
 let myAge = 20;
 if (myAge > 25) {
-  console.log("above 25");
+  console.log("Бодлого1: ", "above 25");
 } else if (myAge < 25) {
-  console.log("below 25");
+  console.log("Бодлого1: ", "below 25");
 } else {
-  console.log("equal 25");
+  console.log("Бодлого1: ", "equal 25");
 }
 
 // bodlogo2
 
 let n = 11;
 if (n % 2 == 0) {
-  console.log("it's even number");
+  console.log("Бодлого2: ", "it's even number");
 } else {
-  console.log("it's odd number");
+  console.log("Бодлого2: ", "it's odd number");
 }
 
 //bodlogo3
@@ -115,11 +115,11 @@ let a3 = 12;
 let b3 = 45;
 let c3 = 30;
 if (a3 >= b3 && a3 >= c3) {
-  console.log(a3);
+  console.log("Бодлого3: ", a3);
 } else if (b3 >= a3 && b3 >= c3) {
-  console.log(b3);
+  console.log("Бодлого3: ", b3);
 } else {
-  console.log(c3);
+  console.log("Бодлого3: ", c3);
 }
 
 //bodlogo4
@@ -128,11 +128,11 @@ let a4 = 12;
 let b4 = 45;
 let c4 = 30;
 if (a4 <= b4 && a4 <= c4) {
-  console.log(a4);
+  console.log("Бодлого4: ", a4);
 } else if (b4 <= a4 && b4 <= c4) {
-  console.log(b4);
+  console.log("Бодлого4: ", b4);
 } else {
-  console.log(c4);
+  console.log("Бодлого4: ", c4);
 }
 
 //bodlogo5
@@ -169,7 +169,7 @@ switch (monthNumber) {
   }
 }
 
-console.log("Season: ", seasonName);
+console.log("Бодлого5: ", seasonName);
 
 // bodlogo6
 
@@ -201,7 +201,142 @@ if (d6 > 80) {
 } else {
   d6check = 0;
 }
-console.log(
-  "80-с их тоонуудын нийлбэр: ",
-  a6check + b6check + c6check + d6check
-);
+console.log("Бодлого6: ", a6check + b6check + c6check + d6check);
+
+//bodlogo7
+
+let a7 = 3;
+let b7 = 7;
+let c7 = 2;
+let d7 = 4;
+let a7check;
+let b7check;
+let c7check;
+let d7check;
+if (a7 < 5) {
+  a7check = a7;
+} else {
+  a7check = 1;
+}
+if (b7 < 5) {
+  b7check = b7;
+} else {
+  b7check = 1;
+}
+if (c7 < 5) {
+  c7check = c7;
+} else {
+  c7check = 1;
+}
+if (d7 < 5) {
+  d7check = d7;
+} else {
+  d7check = 1;
+}
+console.log("Бодлого7: ", a7check * b7check * c7check * d7check);
+
+// bodlogo8
+
+let bat = 67;
+let ochir = 59;
+
+if (bat < 60) {
+  console.log("Бодлого8: ", "Бат", "-", bat, "-", "Маш муу");
+} else if (bat >= 60 && bat < 70) {
+  console.log("Бодлого8: ", "Бат", "-", bat, "-", "Хангалттай");
+} else if (bat >= 70 && bat < 80) {
+  console.log("Бодлого8: ", "Бат", "-", bat, "-", "Дунд");
+} else if (bat >= 80 && bat < 90) {
+  console.log("Бодлого8: ", "Бат", "-", bat, "-", "Сайн");
+} else {
+  console.log("Бодлого8: ", "Бат", "-", bat, "-", "Маш сайн");
+}
+if (ochir < 60) {
+  console.log("Бодлого8: ", "Очир", "-", ochir, "-", "Маш муу");
+} else if (ochir >= 60 && ochir < 70) {
+  console.log("Бодлого8: ", "Очир", "-", ochir, "-", "Хангалттай");
+} else if (ochir >= 70 && ochir < 80) {
+  console.log("Бодлого8: ", "Очир", "-", ochir, "-", "Дунд");
+} else if (ochir >= 80 && ochir < 90) {
+  console.log("Бодлого8: ", "Очир", "-", ochir, "-", "Сайн");
+} else {
+  console.log("Бодлого8: ", "Очир", "-", ochir, "-", "Маш сайн");
+}
+
+// bodlogo9
+
+let a9 = 120;
+let b9 = 33;
+let c9 = 10;
+let d9 = 12;
+if (a9 <= b9 && a9 <= c9 && a9 <= d9) {
+  console.log("Бодлого9: ", a9);
+} else if (b9 <= a9 && b9 <= c9 && b9 <= d9) {
+  console.log("Бодлого9: ", b9);
+} else if (c9 <= a9 && c9 <= b9 && c9 <= d9) {
+  console.log("Бодлого9: ", c9);
+} else {
+  console.log("Бодлого9: ", d9);
+}
+
+// bodlogo10
+
+let aBag1 = 96;
+let aBag2 = 108;
+let aBag3 = 89;
+let bBag1 = 88;
+let bBag2 = 91;
+let bBag3 = 110;
+if ((aBag1 + aBag2 + aBag3) / 3 < 100 && (bBag1 + bBag2 + bBag3) / 3 < 100) {
+  console.log("Бодлого10: ", "Ялагч байхгүй");
+} else if ((aBag1 + aBag2 + aBag3) / 3 > (bBag1 + bBag2 + bBag3) / 3) {
+  console.log("Бодлого10: ", "А баг түрүүлсэн");
+} else if ((aBag1 + aBag2 + aBag3) / 3 < (bBag1 + bBag2 + bBag3) / 3) {
+  console.log("Бодлого10: ", "Б баг түрүүлсэн");
+} else {
+  console.log("Бодлого10: ", "Багууд тэнцсэн");
+}
+
+// bodlogo11
+
+let heigh = 130;
+let age = 10;
+let hasAdult = true;
+
+if ((heigh > 140 && age >= 10) || hasAdult == true) {
+  console.log("Бодлого11: ", "Дугуй унаж болно");
+} else {
+  console.log("Бодлого11: ", "Дугуй унаж болохгүй");
+}
+
+// bodlogo12
+
+let a12 = 7;
+let b12 = 22;
+let c12 = 13;
+let d12 = 30;
+let a12check;
+let b12check;
+let c12check;
+let d12check;
+if (a12 % 11 != 0) {
+  a12check = a12;
+} else {
+  a12check = 0;
+}
+if (b12 % 11 != 0) {
+  b12check = b12;
+} else {
+  b12check = 0;
+}
+if (c12 % 11 != 0) {
+  c12check = c12;
+} else {
+  c12check = 0;
+}
+if (d12 % 11 != 0) {
+  d12check = d12;
+} else {
+  d12check = 0;
+}
+console.log("Бодлого12: ", a12check + b12check + c12check + d12check);
