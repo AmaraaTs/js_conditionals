@@ -203,6 +203,26 @@ if (d6 > 80) {
 }
 console.log("Бодлого6: ", a6check + b6check + c6check + d6check);
 
+let a6_2 = 85;
+let b6_2 = 75;
+let c6_2 = 96;
+let d6_2 = 69;
+let sum = 0;
+if (a6 > 80) {
+  sum += a6_2;
+}
+if (b6 > 80) {
+  sum = sum + b6_2;
+}
+if (c6 > 80) {
+  sum = sum + c6_2;
+}
+if (d6 > 80) {
+  sum = sum + d6_2;
+}
+
+console.log("Бодлого6 багшаас: ", sum);
+
 //bodlogo7
 
 let a7 = 3;
